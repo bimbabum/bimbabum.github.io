@@ -1,0 +1,65 @@
+html {
+    color: black;
+    margin-left:125px;
+    margin-right:125px;
+    font-family: Garamond;
+    display: grid;
+}
+
+.nav {
+    box-sizing: content-box;
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    height: 46px;
+    color: black;
+}
+
+.nav a {
+    float: right;
+    text-align: center;
+    padding: 14px 14px;
+}
+
+.nav a:hover {
+    background-color:lightgrey;
+    color: white;
+}
+
+.nav a.active {
+    background-color:grey;
+    color: white;
+}
+
+.nav img {
+    float: left;
+}
+
+.top-banner {
+    background-image:url('./Images/header.jpg');
+    background-size:contain ;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position:center;
+}
+
+.top-banner p {
+    position:relative;
+    top: 600px;
+    left: 1000px;
+    color: white;
+    opacity: 0.7;
+    font-size: 80px;
+}
+
+.aboutme {
+    box-sizing:content-box;
+    width:50%;    
+    position: static;
+}
+
+.project {
+    box-sizing:content-box;
+    width:50%;
+    position: static;
+}
